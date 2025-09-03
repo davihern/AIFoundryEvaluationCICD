@@ -28,7 +28,7 @@ jobs:
         uses: microsoft/ai-agent-evals@v1-beta
         with:
           # Replace placeholders with values for your Azure AI Project
-          azure-aiproject-connection-string: "https://davihernaiservices.openai.azure.com/"
+          azure-aiproject-connection-string: "swedencentral.api.azureml.ms;baa4dc2a-a455-43f3-91f2-5d9e98cff3e2;davihern-foundry;davihernproject"
           deployment-name: "gpt-4o"
           agent-ids: "asst_wac9uac8oqKIhdKye2GLS4FL"
           data-path: ${{ github.workspace }}/datafile.json
