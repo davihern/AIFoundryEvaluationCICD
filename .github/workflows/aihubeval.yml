@@ -1,4 +1,4 @@
-name: "AI Agent Evaluation"
+name: "AI Agent Evaluation Legacy AI Hub"
 
 on:
   workflow_dispatch:
