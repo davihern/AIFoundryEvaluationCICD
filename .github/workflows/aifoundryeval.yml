@@ -1,4 +1,4 @@
-name: "AI Agent Evaluation"
+name: "AI Agent Evaluation Modern AI Foundry"
 
 on:
   workflow_dispatch:
