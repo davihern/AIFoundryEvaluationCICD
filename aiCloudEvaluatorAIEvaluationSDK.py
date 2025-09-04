@@ -17,6 +17,7 @@ print("Loaded environment variables.")
 print(f"Azure Deployment Name: {os.getenv('AZURE_DEPLOYMENT_NAME')}")
 print(f"Azure Endpoint: {os.getenv('AZURE_ENDPOINT')}")
 print(f"Azure API Version: {os.getenv('AZURE_API_VERSION')}")
+print(f"Azure AI Project: {os.getenv('AZURE_AI_PROJECT')}")
 
 
 

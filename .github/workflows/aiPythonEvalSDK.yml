@@ -8,6 +8,7 @@ env:
   AZURE_DEPLOYMENT_NAME: ${{ vars.AZURE_DEPLOYMENT_NAME }}
   AZURE_ENDPOINT: ${{ vars.AZURE_ENDPOINT }}
   AZURE_AI_PROJECT: ${{ vars.AZURE_AI_PROJECT }}
+  AZURE_API_KEY: ${{ secrets.AZURE_API_KEY }}
 
 permissions:
   id-token: write
