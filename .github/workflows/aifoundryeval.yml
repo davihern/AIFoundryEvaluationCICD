@@ -24,6 +24,12 @@ jobs:
           tenant-id: ${{ vars.AZURE_TENANT_ID }}
           subscription-id: ${{ vars.AZURE_SUBSCRIPTION_ID }}
 
+      - name: SetUp Python And package
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+      - run: pip install packaging
+
       - name: Run Evaluation
         uses: microsoft/ai-agent-evals@v2-beta
         with:
