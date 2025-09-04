@@ -13,6 +13,13 @@ from azure.ai.evaluation import GroundednessEvaluator, AzureOpenAIModelConfigura
 
 load_dotenv()
 
+print("Loaded environment variables.")
+print(f"Azure Deployment Name: {os.getenv('AZURE_DEPLOYMENT_NAME')}")
+print(f"Azure Endpoint: {os.getenv('AZURE_ENDPOINT')}")
+print(f"Azure API Version: {os.getenv('AZURE_API_VERSION')}")
+
+
+
 model_config = {
     "azure_deployment": os.getenv("AZURE_DEPLOYMENT_NAME"),
     "api_key": os.getenv("AZURE_API_KEY"),
