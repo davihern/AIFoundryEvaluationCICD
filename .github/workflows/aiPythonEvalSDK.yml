@@ -19,6 +19,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
           - uses: actions/checkout@v5
+
+          - name: Azure login using Federated Credentials
+            uses: azure/login@v2
+            with:
+              client-id: ${{ vars.AZURE_CLIENT_ID }}
+              tenant-id: ${{ vars.AZURE_TENANT_ID }}
+              subscription-id: ${{ vars.AZURE_SUBSCRIPTION_ID }}
+
           - name: Set up Python
             # This is the version of the action for setting up Python, not the Python version.
             uses: actions/setup-python@v5
