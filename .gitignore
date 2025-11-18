@@ -346,6 +346,16 @@ paket-files/
 **/__pycache__/
 *.pyc
 
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+.hypothesis/
+
 # Cake - Uncomment if you are using it
 #tools/**
 #!tools/packages.config
