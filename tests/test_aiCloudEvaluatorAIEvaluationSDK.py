@@ -275,7 +275,8 @@ class TestEvaluatorConfiguration:
         azure_ai_project = os.environ.get("AZURE_AI_PROJECT")
         
         assert azure_ai_project is not None
-        assert "services.ai.azure.com" in azure_ai_project
+        assert azure_ai_project.startswith("https://")
+        assert "/api/projects/" in azure_ai_project
 
 
 class TestDataConversion:

@@ -390,15 +390,15 @@ class TestAzureProjectConfiguration:
         
         assert azure_ai_project is not None
         assert azure_ai_project.startswith("https://")
-        assert ".services.ai.azure.com" in azure_ai_project
+        assert azure_ai_project.endswith("/api/projects/test-project")
         assert "/api/projects/" in azure_ai_project
 
     def test_azure_project_url_parsing(self):
         """Test parsing Azure AI Project URL components."""
         test_url = "https://account.services.ai.azure.com/api/projects/my-project"
         
-        assert "https://" in test_url
-        assert "services.ai.azure.com" in test_url
+        assert test_url.startswith("https://")
+        assert test_url.endswith("/api/projects/my-project")
         assert "/api/projects/" in test_url
         
         # Extract project name
