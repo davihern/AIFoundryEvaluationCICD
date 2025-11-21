@@ -82,7 +82,7 @@ class EvaluationConfig:
         Returns:
             String representation with masked API key
         """
-        masked_key = f"{self.api_key[:4]}...{self.api_key[-4:]}" if self.api_key and len(self.api_key) > 8 else "****"
+        masked_key = f"{self.api_key[:4]}...{self.api_key[-4:]}" if self.api_key and len(self.api_key) > 12 else "****"
         return (
             f"EvaluationConfig("
             f"azure_deployment={self.azure_deployment!r}, "
