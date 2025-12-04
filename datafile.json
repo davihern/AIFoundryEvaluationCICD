@@ -3,14 +3,27 @@
   "evaluators": [ 
     "RelevanceEvaluator", 
     "ViolenceEvaluator", 
-    "HateUnfairnessEvaluator"
+    "HateUnfairnessEvaluator",
+    "IntentResolutionEvaluator",
+    "TaskAdherenceEvaluator",
+    "ToolCallAccuracyEvaluator",
+    "ResponseCompletenessEvaluator",
+    "CoherenceEvaluator",
+    "FluencyEvaluator",
+    "SimilarityEvaluator",
+    "GroundednessEvaluator",
+    "RetrievalEvaluator"
   ], 
   "data": [ 
     { 
-      "query": "Tell me about Tokyo?"
+      "query": "What Iberostar hotels are in Ibiza?",
+      "context=": "Iberostar Selection Santa Eulalia Ibiza",
+      "ground_truth"="Iberostar Selection Santa Eulalia Ibiza is the only hotel of Iberostar in Ibiza"
     }, 
     { 
-      "query": "Where is Italy?"
+      "query": "What is the average price of a room in Tenerife?"
+      "context=": "Normal room: 100€, Special room: 200€, Suite: 300€",
+      "ground_truth"="Average rrom price: 200€"
     } 
   ] 
 } 
