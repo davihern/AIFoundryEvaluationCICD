@@ -7,12 +7,9 @@
     "IntentResolutionEvaluator",
     "TaskAdherenceEvaluator",
     "ToolCallAccuracyEvaluator",
-    "ResponseCompletenessEvaluator",
     "CoherenceEvaluator",
     "FluencyEvaluator",
-    "SimilarityEvaluator",
-    "GroundednessEvaluator",
-    "RetrievalEvaluator"
+    "GroundednessEvaluator"
   ], 
   "data": [ 
     { 
