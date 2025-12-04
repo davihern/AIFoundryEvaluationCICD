@@ -18,12 +18,12 @@
     { 
       "query": "What Iberostar hotels are in Ibiza?",
       "context=": "Iberostar Selection Santa Eulalia Ibiza",
-      "ground_truth"="Iberostar Selection Santa Eulalia Ibiza is the only hotel of Iberostar in Ibiza"
+      "ground_truth":"Iberostar Selection Santa Eulalia Ibiza is the only hotel of Iberostar in Ibiza"
     }, 
     { 
-      "query": "What is the average price of a room in Tenerife?"
+      "query": "What is the average price of a room in Tenerife?",
       "context=": "Normal room: 100€, Special room: 200€, Suite: 300€",
-      "ground_truth"="Average rrom price: 200€"
+      "ground_truth":"Average rrom price: 200€"
     } 
   ] 
 } 
