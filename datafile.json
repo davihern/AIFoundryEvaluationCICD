@@ -13,9 +13,9 @@
   ], 
   "data": [ 
     { 
-      "query": "What Iberostar hotels are in Ibiza?",
-      "context=": "Iberostar Selection Santa Eulalia Ibiza",
-      "ground_truth":"Iberostar Selection Santa Eulalia Ibiza is the only hotel of Iberostar in Ibiza"
+      "query": "What Barcelo hotels are in Ibiza?",
+      "context=": "Occidental Ibiza",
+      "ground_truth":"Occidental Ibiza and Barceló Portinatx  are the Barcelo hotels in Ibiza"
     }, 
     { 
       "query": "What is the average price of a room in Tenerife?",
