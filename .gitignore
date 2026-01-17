@@ -14,6 +14,12 @@
 # Python environment
 .venv/
 
+# Python test artifacts
+htmlcov/
+.pytest_cache/
+.coverage
+*.cover
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
